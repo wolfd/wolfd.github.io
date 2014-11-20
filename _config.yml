@@ -1,0 +1,12 @@
+# Site settings
+title: /var/blog/wolfd
+email: danny.e.wolf@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My name is Danny Wolf and I make things.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wolfd.github.io" # the base hostname & protocol for your site
+twitter_username: dannyewolf
+github_username:  wolfd
+
+# Build settings
+markdown: kramdown
