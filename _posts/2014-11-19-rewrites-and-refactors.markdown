@@ -101,3 +101,25 @@ face code that must be fixed, that prevents velocity, that is scary, that causes
 without killing the project.
 
 TL;DR: I have no idea what I'm talking about.
+
+## Caveats
+
+I mainly wrote this to convince myself, and that means that I'm not sure about what I'm saying. Every situation we find
+ourselves in requires a different solution, and the situation I'm in is a very difficult one. When I posted this, I got
+a comment that puts my post into perspective:
+
+> I've found "rewrite vs refactor" to be a false dichotomy. The arguments tend to define rewrites as being from scratch with functional changes and refactors to be a long series of very small no-op changes to existing code. In practice a hybrid model is not only quite possible but often ideal. If your application is modular, you can rewrite individual modules from scratch. If it isn't modular, you can first refactor it to be modular enough and then slowly rewrite. Want to switch languages? Cross compile, SWIG, embedded interpreter/vm, etc, then port things in small pieces. Many applications (particularly web apps) tend to wind up in a tree/dag-like structure. These tend to work well for bottom up (leaves first) "rewrites". Or start from scratch at the topmost level and re-use all the "legacy" code/components/functions assembled in a different way. There's rarely a good reason to rewrite an entire application *at once*, but that in no way precludes you from effectively rewriting it without just the tedium of no-op refactors. It just requires some more thought and strategizing up front.
+
+and
+
+> One other thing I've learned: when dealing with a hunk of unreadable/undocumented/otherwise-terrible legacy code (a single line, a function, module, class, util, file, whatever) that you consider unfixable and in need of a rewrite, even though it is painful, before you rewrite it, at least refactor it (the slow, tedious, no-op way) a little--enough that you can actually understand exactly how it works. You don't have to fix it: it is unfixable and you are rewriting it after all. But I've found it is nearly always worth the pain of getting into an at least semi-readable state so you know what you're dealing with.
+
+-- both from [Christopher Souvey](https://github.com/souvey)
+
+I find Christopher's words to ring true. My trouble in this post is trying to justify a single solution when there are 
+infinite. The one constant is that when a problem is understood, both the cause and the effect, the purpose of
+action is far safer and more effective. The engineering idiom "if it ain't broke, don't fix it" is overused, for broken
+systems are far too often classified as working. When engineers cannot work, a system is broken. Christopher pointed me 
+to [Chesterton's Fence](http://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence), which I have quoted below:
+
+> In the matter of reforming things, as distinct from deforming them, there is one plain and simple principle; a principle which will probably be called a paradox. There exists in such a case a certain institution or law; let us say, for the sake of simplicity, a fence or gate erected across a road. The more modern type of reformer goes gaily up to it and says, “I don’t see the use of this; let us clear it away.” To which the more intelligent type of reformer will do well to answer: “If you don’t see the use of it, I certainly won’t let you clear it away. Go away and think. Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it.
