@@ -1,5 +1,5 @@
-wolfd.github.io
-===============
+blog.wolfd.me
+=============
 
 Blog glog syslog
 
