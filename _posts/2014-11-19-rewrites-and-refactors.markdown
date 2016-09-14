@@ -5,6 +5,8 @@ date:   2014-11-19 16:24:40
 categories: sysblog
 ---
 
+### Note: I am not sure I believe what I wrote here, there's a lot of great arguments for doing things in other ways. Personally, I have not refactored the city generator I wrote, and these days, I believe that if I start that project again, I would completely throw away the code I wrote.
+
 I've started to read [Refactoring by Martin Fowler](http://martinfowler.com/books/refactoring.html), and it's inspiring.
 The book starts out with an example of a small project that has theoretically overgrown its original implementation and
 must be refactored. The thing is, I've got a project that is in the same state. My Java City Generator, cleverly named 
