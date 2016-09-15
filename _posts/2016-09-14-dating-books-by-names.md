@@ -2,7 +2,6 @@
 layout: post
 title:  "Dating books by names"
 date:   2016-09-14 16:00:00
-categories: sysblog, bayes
 ---
 
 License: Attribution 4.0 International (CC BY 4.0) 

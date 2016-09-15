@@ -2,7 +2,6 @@
 layout: post
 title:  "Rewrites and Refactors"
 date:   2014-11-19 16:24:40
-categories: sysblog
 ---
 
 ### Note: I am not sure I believe what I wrote here, there's a lot of great arguments for doing things in other ways. Personally, I have not refactored the city generator I wrote, and these days, I believe that if I start that project again, I would completely throw away the code I wrote.
