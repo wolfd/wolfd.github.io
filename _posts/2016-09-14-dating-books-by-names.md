@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Dating books by names"
+date:   2016-09-14 16:00:00
+categories: sysblog, bayes
+---
 
 License: Attribution 4.0 International (CC BY 4.0) 
 https://creativecommons.org/licenses/by/4.0/
@@ -407,7 +413,3 @@ twilight.Mean()
 
 
 ![png](output_24_1.png)
-
-
-# The other parts of the report
-HW2 problems from book: https://github.com/wolfd/ThinkBayes2/blob/master/code/HW2.ipynb
