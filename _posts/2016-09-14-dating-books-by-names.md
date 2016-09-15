@@ -146,7 +146,7 @@ jack_and_jill.Mean()
 
 
 
-![png](output_8_1.png)
+![Jack and Jill example plot. Plot centers around 1970]({{ site.url }}/assets/output_8_1.png)
 
 
 ## The Grapes of Wrath (1939)
@@ -180,7 +180,7 @@ grapes_of_wrath.Mean()
 
 
 
-![png](output_10_1.png)
+![Plot of Grapes of Wrath]({{ site.url }}/assets/output_10_1.png)
 
 
 ## Harry Potter and the Sorcerer's Stone (1998)
@@ -208,7 +208,7 @@ harry_potter_1.Mean()
 
 
 
-![png](output_12_1.png)
+![Hermione wasn't a popular name until Harry Potter came out]({{ site.url }}/assets/output_12_1.png)
 
 
 ## The Great Gatsby (1925)
@@ -242,7 +242,7 @@ great_gatsby.Mean()
 
 
 
-![png](output_14_1.png)
+![Jordan wasn't a popular name (for female babies, it actually was reasonably popular for male babies) when The Great Gatsby was published]({{ site.url }}/assets/output_14_1.png)
 
 
 ## Lord of the Flies (1954)
@@ -275,7 +275,7 @@ lord_of_the_flies.Mean()
 
 
 
-![png](output_16_1.png)
+![Lord of the Flies]({{ site.url }}/assets/output_16_1.png)
 
 
 ## Adding Kanye to Lord of the Flies
@@ -307,7 +307,7 @@ lord_of_the_flies.Mean()
 
 
 
-![png](output_18_1.png)
+![No surprise with Kanye not being a 40s name]({{ site.url }}/assets/output_18_1.png)
 
 
 ## The Catcher in the Rye (1951)
@@ -343,7 +343,7 @@ mean_year
 
 
 
-![png](output_20_1.png)
+![The Catcher in the Rye]({{ site.url }}/assets/output_20_1.png)
 
 
 ## Superman comics
@@ -376,7 +376,7 @@ superman.Mean()
 
 
 
-![png](output_22_1.png)
+![Superman characters don't have modern names, it turns out]({{ site.url }}/assets/output_22_1.png)
 
 
 ## Twilight (2005)
@@ -412,4 +412,4 @@ twilight.Mean()
 
 
 
-![png](output_24_1.png)
+![I never thought I'd have a post about Twilight on my blog, I hope this is the last]({{ site.url }}/assets/output_24_1.png)
